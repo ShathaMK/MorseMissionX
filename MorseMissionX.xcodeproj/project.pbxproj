@@ -6,8 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		587A26D5304750D200BC88A6 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 587A26D4304750D200BC88A6 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		587A26C6304750C500BC88A6 /* MorseMissionX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorseMissionX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		587A26D4304750D200BC88A6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -34,6 +39,7 @@
 			children = (
 				587A26C8304750C500BC88A6 /* MorseMissionX */,
 				587A26C7304750C500BC88A6 /* Products */,
+				587A26D4304750D200BC88A6 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +115,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587A26D5304750D200BC88A6 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
