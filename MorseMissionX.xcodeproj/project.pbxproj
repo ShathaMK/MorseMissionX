@@ -15,9 +15,22 @@
 		587A26D4304750D200BC88A6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		587A277E304753A900BC88A6 /* Exceptions for "MorseMissionX" folder in "MorseMissionX" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"App-Gallery/Extensions/View+Extension.swift",
+			);
+			target = 587A26C5304750C500BC88A6 /* MorseMissionX */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		587A26C8304750C500BC88A6 /* MorseMissionX */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				587A277E304753A900BC88A6 /* Exceptions for "MorseMissionX" folder in "MorseMissionX" target */,
+			);
 			path = MorseMissionX;
 			sourceTree = "<group>";
 		};
@@ -273,7 +286,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AppleAcademy.MorseMissionX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -306,7 +319,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AppleAcademy.MorseMissionX;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;

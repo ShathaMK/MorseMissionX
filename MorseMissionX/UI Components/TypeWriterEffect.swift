@@ -1,4 +1,5 @@
 import SwiftUI
+import Combine
 
 struct TypeWriterEffect: View {
     let text: String

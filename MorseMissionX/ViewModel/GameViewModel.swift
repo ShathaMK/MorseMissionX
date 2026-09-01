@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-
+import Combine
 class GameViewModel: ObservableObject {
     @Published var currentSceneIndex = 0
     @Published var currentDialogueIndex = 0
